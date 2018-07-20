@@ -38,16 +38,18 @@
 
       &--btnFirst {
         background: $colorBackground;
-        border: none;
+        border: 0;
         border-radius: 5px;
+        cursor: pointer;
         height: 31px;
         width: 146px;
       }
 
       &--btnSecond {
         background: $colorBackground;
-        border: none;
+        border: 0;
         border-radius: 5px;
+        cursor: pointer;
         height: 31px;
         width: 86px;
       }
@@ -58,6 +60,7 @@
       background: none;
       border: 2px solid #C0C9CC;
       border-radius: 3px;
+      cursor: pointer;
       display: flex;
       margin-top: 5px;
       padding: 0;
@@ -69,6 +72,7 @@
       border: 0;
       border: 2px solid #C0C9CC;
       border-radius: 3px;
+      cursor: pointer;
       display: flex;
     }
   }

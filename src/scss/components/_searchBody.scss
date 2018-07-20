@@ -35,8 +35,8 @@
     &__container {
       display: flex;
       justify-content: space-evenly;
-      padding-left: 20%;
-      padding-right: 20%;
+      padding-left: 7%;
+      padding-right: 7%;
       padding-top: 5%;
     }
 
@@ -197,6 +197,11 @@
           margin-top: 35px;
         }
       }
+
+      &__container:hover {
+        border: $colorBackground 1px solid;
+      }
+
     }
   }
 }
