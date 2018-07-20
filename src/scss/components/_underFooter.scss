@@ -1,0 +1,31 @@
+.underFooter {
+  padding-bottom: 30px;
+  padding-top: 48px;
+
+  &-followUs {
+    &__container {
+      display: flex;
+    }
+
+    &__title {
+      font-family: $globalFonts;
+      font-size: 14px;
+    }
+
+    &__bg {
+      margin-left: 12px;
+    }
+  }
+
+  &-payment-bg {
+    &__container {
+      display: flex;
+    }
+
+    &__logo {
+      &--second {
+        margin-left: 12px;
+      }
+    }
+  }
+}

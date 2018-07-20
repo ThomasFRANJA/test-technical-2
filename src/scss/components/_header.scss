@@ -1,0 +1,77 @@
+// Début header //
+.header {
+  // Couleur background rappelée par une variable définie dans variables.scss //
+  background-color: $headerColor;
+  opacity: .9;
+  padding: 10px 0;
+
+  &-logo {
+    margin-left: 120px;
+
+    &__img {
+      height: 56px;
+      width: 105px;
+    }
+  }
+
+
+  // Début header nav //
+  &-nav {
+    align-items: center;
+    font-family: $globalFonts;
+    font-size: 13px;
+
+    &__item {
+      display: inline-block;
+      padding-right: 15px;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+    &__link {
+      color: $textFirstColor;
+      letter-spacing: .325px;
+      text-decoration: none;
+      text-transform: uppercase;
+
+      &--btnFirst {
+        background: $colorBackground;
+        border: none;
+        border-radius: 5px;
+        height: 31px;
+        width: 146px;
+      }
+
+      &--btnSecond {
+        background: $colorBackground;
+        border: none;
+        border-radius: 5px;
+        height: 31px;
+        width: 86px;
+      }
+    }
+
+    &--country {
+      align-items: center;
+      background: none;
+      border: 2px solid #C0C9CC;
+      border-radius: 3px;
+      display: flex;
+      margin-top: 5px;
+      padding: 0;
+    }
+
+    &--eur {
+      align-items: center;
+      background: none;
+      border: 0;
+      border: 2px solid #C0C9CC;
+      border-radius: 3px;
+      display: flex;
+    }
+  }
+  // Fin header nav //
+}
+// Fin header //

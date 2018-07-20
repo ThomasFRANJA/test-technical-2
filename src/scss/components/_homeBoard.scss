@@ -1,0 +1,33 @@
+.homeBoard {
+  background: $colorSecondBackground;
+  padding: 70px 0;
+
+  &__container {
+    color: $textFirstColor;
+    font-family: $globalFonts;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  &__description {
+    font-size: 19px;
+    line-height: 1.5;
+    padding-top: 20px;
+  }
+
+  &__button {
+    background: $colorBackground;
+    border: none;
+    border-radius: 5px;
+    color: $textFirstColor;
+    font-size: 15px;
+    height: 44px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    width: 157px;
+  }
+}

@@ -4,10 +4,9 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Document</title>
+  <title>Trainline</title>
   <meta name="description" content="">
   <meta name="author" content="">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--[if lt IE 9]>
@@ -15,10 +14,510 @@
   <![endif]-->
 
   <!-- Do not remove, main CSS file compiler from src/scss/master.scss -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
   <link rel="stylesheet" href="./css/master.min.css">
+  <link rel="shortcut icon" href="./assets/img/favicon.png" />
 </head>
 
 <body>
+  <!-- Début header -->
+  <header class="header">
+    <div class="container">
+      <div class="row middle-lg">
+        <div class="col-lg-6">
+          <div class="header-logo">
+            <a href="/" class="header-logo__link">
+              <img src="./assets/img/asset 32.svg" class="header-logo__img" alt="">
+            </a>
+          </div>
+        </div>
+
+        <!-- Début header nav -->
+        <nav class="col-lg-6 header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <button href="/" class="header-nav__link header-nav__link--btnFirst">Create account</button>
+            </li>
+            <li class="header-nav__item">
+              <button href="/" class="header-nav__link header-nav__link--btnSecond">Sign in</button>
+            </li>
+            <li class="header-nav__item">
+              <a href="/" class="header-nav__link">Uk rail</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="/" class="header-nav__link">Help</a>
+            </li>
+            <li class="header-nav__item">
+              <button href="/" class="header-nav__link header-nav--country">
+                <img src="./assets/img/asset 0.svg" alt="">
+              </button>
+            </li>
+            <li class="header-nav__item">
+              <button href="/" class="header-nav__link header-nav--eur">EUR</button>
+            </li>
+          </ul>
+        </nav>
+        <!-- Fin header nav -->
+      </div>
+    </div>
+  </header>
+  <!-- Fin header -->
+
+<!-- Début section searchBody -->
+<section class="searchBody">
+  <div class="searchBody__container">
+    <h1 class="searchBody__title">European trains and buses at your fingertips.</h1>
+    <p class="searchBody__subTitle">Travel with Trainline, the independent leader in train and bus ticket sales throughout Europe.</p>
+  </div>
+  
+  <!-- Début panel  de gauche -->
+    <div class="searchBody-panel__container">
+      <div class="searchBody-panel">
+        <h3 class="searchBody-panel__title searchBody-panel__title--first">Where can we take you?
+        </h3>
+
+        <form>
+          <div class="searchBody-panel-form__container searchBody-panel-form__container--first">
+            <input type="text" placeholder="Enter your departure station..." class="searchBody-panel-form__input">
+          </div>
+
+          <div class="searchBody-panel-form__container searchBody-panel-form__container--second">
+            <input type="text" placeholder="Enter your arrival station..." class="searchBody-panel-form__input">
+          </div>
+
+          <div class="searchBody-panel-form__container searchBody-panel-form__container--third">
+            <input type="text" placeholder="Depart" class="searchBody-panel-form__input">
+          </div>
+
+          <div class="searchBody-panel-form__container searchBody-panel-form__container--fourth">
+            <input type="text" placeholder="Return" class="searchBody-panel-form__input">
+          </div>
+
+          <div class="searchBody-panel-form__container searchBody-panel-form__container--fifth">
+            <input type="button" value="1 Adult (26-29)" class="searchBody-panel-form__input">
+            <div class="searchBody-panel-form__bg">
+              <img src="./assets/img/asset 39.svg" alt="" class="searchBody-panel-form__img">
+            </div>
+          </div>
+          <button class="searchBody-panel-form__button">Search</button>
+        </form>
+      </div>
+      <!-- Fin panel de gauche -->
+
+      <!-- Début panel de droite -->
+      <div class="searchBody-panel searchBody-panel--second">
+        <div class="searchBody-panel__header">
+          <h3 class="searchBody-panel__title searchBody-panel__title--second">Trainline’s advantages
+          </h3>
+        </div>
+
+        <div class="searchBody-panel-information__container">
+          <div class="searchBody-panel-information">
+            <img class="searchBody-panel-information__img" src="./assets/img/asset 40.svg" alt="/">
+            <div class="searchBody-panel-information__description">
+              <h2 class="searchBody-panel-information__title">No booking fees and no hidden costs</h2>
+              <p class="searchBody-panel-information__subTitle">The tickets that we sell have the same prices as the carriers’.</p>
+            </div>
+          </div>
+
+          <div class="searchBody-panel-information">
+            <img class="searchBody-panel-information__img" src="./assets/img/asset 41.svg" alt="/">
+            <div class="searchBody-panel-information__description">
+              <h2 class="searchBody-panel-information__title">Use your rail cards</h2>
+              <p class="searchBody-panel-information__subTitle">As well as your frequent traveller cards.</p>
+            </div>
+          </div>
+
+          <div class="searchBody-panel-information">
+            <img class="searchBody-panel-information__img" src="./assets/img/asset 42.svg" alt="/">
+            <div class="searchBody-panel-information__description">
+              <h2 class="searchBody-panel-information__title">Pay however you want</h2>
+              <p class="searchBody-panel-information__subTitle">PayPal, Amex and all international credit cards are accepted.</p>
+            </div>
+          </div>
+
+          <div class="searchBody-panel-information__oA">
+            <h2 class="searchBody-panel-information__oA searchBody-panel-information__oA--title">Official agent</h2>
+          </div>
+
+          <div class="searchBody-panel-information__carrier">
+            <img src="./assets/img/asset 43.png" alt="/" class="searchBody-panel-information__carrier--img">
+            <img src="./assets/img/asset 44.svg" alt="/" class="searchBody-panel-information__carrier--img">
+            <img src="./assets/img/asset 45.svg" alt="/" class="searchBody-panel-information__carrier--img">
+            <img src="./assets/img/asset 46.svg" alt="/" class="searchBody-panel-information__carrier--img">
+          </div>
+        </div>
+      </div>
+      <!-- Fin panel de droite -->
+    </div>
+  </section>
+  <!-- Fin section searchBody -->
+
+<!-- Début section partners -->
+  <section class="partners">
+    <div class="container">
+      <div class="row center-lg">
+        <div class="col-lg-10 partners-container">
+          <div class="partners-content-1">
+            <h3 class="partners-content-1__title">These carriers trust us. We sell their tickets.
+            </h3>
+          </div>
+
+          <div class="partners-content-2">
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 43.png" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 44.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 45.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 46.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 47.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 48.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 49.svg" alt="/" class="partners-content-2__logo">
+            </div>
+          </div>
+
+          <div class="partners-content-2">
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 50.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 51.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 52.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 53.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 54.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 55.svg" alt="/" class="partners-content-2__logo">
+            </div>
+
+            <div class="partners-content-2__item">
+              <img src="./assets/img/asset 56.svg" alt="/" class="partners-content-2__logo">
+            </div>
+          </div>
+
+
+          <div class="partners-content-3">
+            <h3 class="partners-content-3__title">All tickets. One source.</h3>
+            <h3 class="partners-content-3__subTitle">You can find all of the train tickets that you need
+              <br> for your travels in Europe.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Fin section partners -->
+
+<!-- Début section box travel -->
+  <section class="boxTravel">
+    <div class="boxTravel__container">
+      <div class="boxTravel__bg boxTravel__bg--first"></div>
+      <div class="boxTravel__description">
+        <h2 class="boxTravel__title">Simple. And hassle-free.</h2>
+        <p class="boxTravel__paragraph">Find all of the prices and timetables for trains, using our simple booking platform. Trainline automatically compares
+          the prices of different tickets and rail operators, so you don’t have to.
+        </p>
+      </div>
+    </div>
+
+    <div class="boxTravel__container">
+      <div class="boxTravel__description">
+        <h2 class="boxTravel__title">Your high-speed experience starts here.
+        </h2>
+        <p class="boxTravel__paragraph">Find, book and pay for your tickets in less time than it takes for you to lose your patience on an ordinary website.
+          According to our calculations, that’s about 58 seconds.
+        </p>
+      </div>
+      <div class="boxTravel__bg boxTravel__bg--second"></div>
+    </div>
+
+    <div class="boxTravel__container">
+      <div class="boxTravel__bg boxTravel__bg--third"></div>
+      <div class="boxTravel__description">
+        <h2 class="boxTravel__title">No booking fees. No hidden costs.</h2>
+        <p class="boxTravel__paragraph">We sell all our train and bus tickets at the official price. We never add any booking fees or hidden costs. You are
+          guaranteed to find the best price here.
+        </p>
+      </div>
+    </div>
+  </section>
+<!-- Fin section box travel -->
+
+<!-- Début section how use -->
+  <section class="howUse">
+    <div class="container">
+      <div class="row center-lg">
+        <div class=" col-lg-12 howUse__content">
+          <h2 class="howUse__title">How does it work?
+          </h2>
+        </div>
+      </div>
+
+      <div class="row center-lg">
+        <div class="col-lg-6 howUse__container">
+          <h3 class="howUse__title howUse__title--second">Payements</h3>
+          <div class="howUse__features">
+            <img src="./assets/img/asset 3.svg" alt="" class="howUse__item">
+            <h3 class="howUse__or">or</h3>
+            <img src="./assets/img/asset 13.svg" alt="" class="howUse__item">
+          </div>
+          <p class="howUse__description">We guard and secure your payments, as if they were priceless.
+          </p>
+        </div>
+
+        <div class="col-lg-6 howUse__container">
+          <h3 class="howUse__title howUse__title--second">Tickets</h3>
+          <div class="howUse__features">
+            <img src="./assets/img/asset 5.svg" alt="" class="howUse__item">
+            <h3 class="howUse__or">or</h3>
+            <img src="./assets/img/asset 6.svg" alt="" class="howUse__item">
+          </div>
+          <p class="howUse__description">You can either print your ticket at a station or receive an e-ticket to print at home.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Fin section how use -->
+
+<!-- Début section home bus -->
+  <section class="homeBus">
+    <div class="homeBus__container">
+      <h2 class="homeBus__title">Hop on a bus too</h2>
+      <p class="homeBus__description">
+        We also sell bus tickets so you can pick what's
+        <br> best for you, whether it's by rail or road.
+      </p>
+      <img src="./assets/img/asset 7.svg" alt="" class="homeBus__bg">
+    </div>
+  </section>
+<!-- Fin section how use -->
+
+<!-- Début section home board -->
+  <section class="homeBoard">
+    <div class="homeBoard__container">
+      <h2 class="homeBoard__title">Get on board!</h2>
+      <p class="homeBoard__description">
+        You are going to love buying train tickets.
+      </p>
+      <button class="homeBoard__button">Book a ticket</button>
+    </div>
+  </section>
+<!-- Début section home board -->
+
+<!-- Début footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row arround-lg">
+        <div class="col-lg-2 company-info">
+          <img src="./assets/img/asset 8.svg" alt="" class="company-info__logo">
+          <ul class="company-info__list">
+            <li class="company-info__item">
+              <a href="https://www.trainline.eu/contact" class="company-info__link">Contact Us</a>
+            </li>
+            <li class="company-info__item">
+              <a href="https://faq.trainline.eu" class="company-info__link">Help
+                <span class="footer-eCommercial">&</span> faq</a>
+            </li>
+            <li class="company-info__item">
+              <a href="https://www.trainline.eu/about/us" class="company-info__link">About tainline</a>
+            </li>
+            <li class="company-info__item">
+              <a href="https://media.trainline.com/" class="company-info__link">Press
+                <span class="footer-eCommercial">&</span> Blog</a>
+            </li>
+          </ul>
+
+          <ul class="company-info__list">
+            <li class="company-info__item">
+              <a href="https://www.trainline.eu/business" class="company-info__link">For Buisness</a>
+            </li>
+            <li class="company-info__item">
+              <a href="https://www.trainline.eu/jobs" class="company-info__link">Careers</a>
+            </li>
+            <li class="company-info__item">
+              <a href="https://www.trainline.eu/terms" class="company-info__link">T&Cs
+                <span class="footer-eCommercial">&</span> Legal</a>
+            </li>
+            <li class="company-info__item">
+              <a href="https://www.trainline.eu/privacy-policy" class="company-info__link">Privacy
+                <span class="footer-eCommercial">&</span> Cookies</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 footer-app__container">
+          <p class="footer-app__description">
+            Over 16.5 million people visit Trainline apps and websites each month. Meet the
+            <a href="https://www.trainline.eu/information/trainline-eu-app" class="footer-app__link">Trainline apps.</a>
+          </p>
+          <div class="footer-app__bg">
+            <a class="footer-app__link" href="https://itunes.apple.com/app/id599502670">
+              <img src="./assets/img/asset 2.svg" alt="" class="footer-app__img">
+            </a>
+            <a class="footer-app__link" href="https://play.google.com/store/apps/details?id=com.capitainetrain.android">
+              <img src="./assets/img/asset 1.svg" alt="" class="footer-app__img">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 footer-train__container">
+          <h3 class="footer-train__title">Destinations</h3>
+          <ul class="footer-train__list">
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/information/trainline-eu-app" class="footer-train__link">Trains to Amsterdam</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/destinations/trains-to-barcelona" class="footer-train__link">Trains to Barcelona</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/destinations/trains-to-berlin" class="footer-train__link">Trains to Berlin</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/destinations/trains-to-brussels" class="footer-train__link">Trains to Brussels</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/destinations/trains-to-london" class="footer-train__link">Trains to London</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/destinations/trains-to-paris" class="footer-train__link">Trains to Paris</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="" class="footer-train__link">Trains to Rome</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 footer-train__container">
+          <h3 class="footer-train__title">Train times</h3>
+          <ul class="footer-train__list">
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/train-times/london-to-paris" class="footer-train__link">London to Paris</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/train-times/paris-to-amsterdam" class="footer-train__link">Paris to Amsterdam</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/train-times/barcelona-to-madrid" class="footer-train__link">Barcelona to Madrid</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/train-times/rome-to-milan" class="footer-train__link">Rome to Milan</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/train-times/berlin-to-munich" class="footer-train__link">Berlin to Munich</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/train-times/paris-to-lyon" class="footer-train__link">Paris to Lyon</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/train-times/rome-to-venice" class="footer-train__link">Rome to Venice</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-lg-2 footer-train__container">
+          <h3 class="footer-train__title">Stations</h3>
+          <ul class="footer-train__list">
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/stations/london-st-pancras" class="footer-train__link">London St. Pancras</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/stations/paris-gare-du-nord" class="footer-train__link">Paris Gare du Nord</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/stations/berlin-hbf" class="footer-train__link">Berlin HBF</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/stations/roma-termini" class="footer-train__link">Roma Termini</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/stations/amsterdam-centraal" class="footer-train__link">Amsterdam Centraal</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/stations/barcelona-sants" class="footer-train__link">Barcelona Sants</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/stations/bruxelles-central" class="footer-train__link">Bruxelles Central</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-lg-2 footer-train__container">
+          <h3 class="footer-train__title">Good to know</h3>
+          <ul class="footer-train__list">
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/information/trains-in-europe" class="footer-train__link">Trains in Europe</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/information/sncf" class="footer-train__link">SNCF</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/information/trenitalia" class="footer-train__link">Trenitalia</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/information/deutshe-bahn" class="footer-train__link">Deutsche Bahn</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/information/renfe" class="footer-train__link">Renfe</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/information/eurostar" class="footer-train__link">Eurostar</a>
+            </li>
+            <li class="footer-train__item">
+              <a href="https://www.trainline.eu/information/interrail" class="footer-train__link">Interrail</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section class="underFooter">
+    <div class="container">
+      <div class="row between-lg">
+        <div class="col-lg-6 middle-lg underFooter-followUs__container">
+          <h3 class="underFooter-followUs__title">Follow us</h3>
+          <img src="./assets/img/asset 10.svg" alt="" class="underFooter-followUs__bg">
+          <img src="./assets/img/asset 11.svg" alt="" class="underFooter-followUs__bg">
+        </div>
+
+        <div class="col-lg-6 middle-lg end-lg underFooter-payment-bg__container">
+          <img src="./assets/img/asset 12.svg" alt="" class="underFooter-payment-bg__logo">
+          <img src="./assets/img/asset 13.svg" alt="" class="underFooter-payment-bg__logo underFooter-payment-bg__logo--second">
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Fin footer -->
 
   <!-- Do not remove, main JS minified file from src/js/app.js -->
   <script src="./js/app.min.js" charset="utf-8"></script>

@@ -1,0 +1,25 @@
+.homeBus {
+  background: $colorBackground;
+  padding: 50px 0;
+
+  &__container {
+    color: $textFirstColor;
+    font-family: $globalFonts;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  &__description {
+    font-size: 19px;
+    line-height: 1.5;
+    padding-top: 20px;
+  }
+
+  &__bg {
+    padding-top: 30px;
+  }
+}

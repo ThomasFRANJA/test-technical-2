@@ -1,0 +1,49 @@
+.partners {
+  color: $textColor;
+  font-family: $globalFonts;
+  font-size: 20px;
+  transform: translateY(-20%);
+
+  &-container {
+    background: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 770px;
+  }
+
+  &-content-1 {
+    padding: 30px 0;
+  }
+
+  &-content-2 {
+    padding-top: 20px;
+    text-align: center;
+
+    &__item {
+      align-items: center;
+      display: inline-block;
+      justify-content: space-between;
+    }
+
+    &__logo {
+      height: 30px;
+      width: 75px;
+    }
+  }
+
+  &-content-3 {
+    padding: 60px 0;
+    text-align: center;
+
+    &__title {
+      color: $headerColor;
+      font-size: 32px;
+      font-weight: bold;
+    }
+
+    &__subTitle {
+      line-height: 1.5;
+      padding-top: 15px;
+    }
+  }
+}

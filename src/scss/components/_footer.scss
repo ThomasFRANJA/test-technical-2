@@ -1,0 +1,86 @@
+.footer {
+  background: $colorThirdBackground;
+  font-family: $globalFonts;
+  padding: 40px 0;
+
+  &-eCommercial {
+    color: $txtColorCmcl;
+  }
+
+  &-app {
+    &__container {
+      font-size: 12px;
+      padding-right: 70px;
+      padding-top: 50px;
+    }
+
+    &__description {
+      color: $textThirdColor;
+      line-height: 1.5;
+    }
+
+    &__link {
+      color: $textSecondColor;
+      text-decoration: none;
+    }
+
+    &__bg {
+      margin-top: 20px;
+      width: 50%;
+    }
+
+    &__img {
+      height: 26px;
+      width: 90px;
+
+      &:last-child {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  &-train {
+    &__container {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    &__title {
+      color: $textSecondColor;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 12px 0;
+    }
+
+    &__item {
+      padding-top: 12px;
+    }
+
+    &__link {
+      color: $textSecondColor;
+      font-size: 12px;
+      text-decoration: none;
+    }
+  }
+}
+
+.company-info {
+  &__list {
+    margin-top: 12px;
+
+    &:last-child {
+      margin-top: 0;
+    }
+  }
+
+  &__item {
+    padding-top: 12px;
+  }
+
+  &__link {
+    color: $textSecondColor;
+    font-size: 12px;
+    text-decoration: none;
+  }
+}
+

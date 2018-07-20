@@ -1,0 +1,47 @@
+.boxTravel {
+  &__container {
+    display: flex;
+    height: 500px;
+  }
+
+  &__bg {
+    width: 50%;
+
+    &--first {
+      background: url('../assets/img/asset-58.jpeg') no-repeat center;
+      background-size: cover;
+    }
+
+    &--second {
+      background: url('../assets/img/asset 59.jpeg') no-repeat center;
+      background-size: cover;
+    }
+
+    &--third {
+      background: url('../assets/img/asset 60.jpeg') no-repeat center;
+      background-size: cover;
+    }
+  }
+
+  &__description {
+    background: #f5f6f7;
+    font-family: $globalFonts;
+    width: 50%;
+    padding: 9% 7%;
+  }
+
+  &__title {
+    color: $headerColor;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  &__paragraph {
+    font-size: 20px;
+    color: #8c8a8c;
+    line-height: 1.5;
+    padding-top: 5%;
+  }
+
+}

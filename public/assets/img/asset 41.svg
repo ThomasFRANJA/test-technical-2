@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-444.000000, -327.000000)">
+            <g id="Group-2" transform="translate(444.000000, 327.000000)">
+                <circle id="Oval" fill="#21314D" cx="20" cy="20" r="20"></circle>
+                <g id="asset-41" transform="translate(9.000000, 11.000000)" fill="#FFFFFF">
+                    <path d="M9.81295,7.797 L8.5905,4.68855 L7.36,7.797 L3.9376,8.0684 L6.601,10.1315 L5.7132,13.5355 L8.5859,11.5736 L11.4632,13.53665 L10.5708,10.13265 L13.2388,8.06955 L9.8118,7.79815 L9.81295,7.797 Z M20.7,0 L2.3,0 C1.02974508,-7.77806814e-17 1.55561363e-16,1.02974508 0,2.3 L0,16.1 C1.55561363e-16,17.3702549 1.02974508,18.4 2.3,18.4 L20.7,18.4 C21.9702549,18.4 23,17.3702549 23,16.1 L23,2.3 C23,1.02974508 21.9702549,7.77806814e-17 20.7,0 Z M20.7,5.75 L14.95,5.75 L14.95,8.05 L20.7,8.05 L20.7,10.35 L14.95,10.35 L14.95,12.65 L20.7,12.65 L20.7,15.64 C20.7,15.894051 20.494051,16.1 20.24,16.1 L2.76,16.1 C2.507,16.1 2.3,15.893 2.3,15.64 L2.3,2.76 C2.3,2.50594902 2.50594902,2.3 2.76,2.3 L20.24,2.3 C20.493,2.3 20.7,2.507 20.7,2.76 L20.7,5.75 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
