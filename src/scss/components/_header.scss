@@ -17,12 +17,15 @@
 
   // Début header nav //
   &-nav {
-    align-items: center;
     font-family: $globalFonts;
     font-size: 13px;
 
+    &__list {
+      display: flex;
+      align-items: center;
+    }
+
     &__item {
-      display: inline-block;
       padding-right: 15px;
 
       &:last-child {
@@ -62,7 +65,6 @@
       border-radius: 3px;
       cursor: pointer;
       display: flex;
-      margin-top: 5px;
       padding: 0;
     }
 
