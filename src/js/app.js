@@ -85,12 +85,4 @@ $toInput.addEventListener('keypress', function (e) {
   getCities(urlCities(e.currentTarget.value));
 });
 
-// $(function(){
-//   $("#buttonToTop").click(function(){
-//       $("html, body").animate({scrollTop: 0},"slow");
-//   });
-// });
-
-
-
 
