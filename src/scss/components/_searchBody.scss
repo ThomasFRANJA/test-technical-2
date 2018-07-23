@@ -66,6 +66,36 @@
       display: flex;
       margin-top: 25px;
 
+      &__result {
+        cursor: grab;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        list-style-type: none;
+        color: $textFourthColor .9;
+        background: #F6F7FA;
+        border: #C1C7CD .8px solid;
+        opacity: .8;
+        height: 42px;
+        padding-left: 20px;
+
+        &:first-child {
+          border-top-right-radius: 5px;
+          border-top-left-radius: 5px;
+        }
+
+        &:last-child {
+          border-bottom-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+          
+        }
+      }
+      &__result:hover {
+        background: none;
+        border: $colorBackground .8px solid;
+        
+      }
+
     &:first-child {
         margin-top: 0;
     }

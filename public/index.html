@@ -78,11 +78,11 @@
 
         <form>
           <div class="searchBody-panel-form__container searchBody-panel-form__container--first">
-            <input type="text" placeholder="Enter your departure station..." class="searchBody-panel-form__input">
+            <input id="callToDeparture" type="text" placeholder="Enter your departure station..." class="searchBody-panel-form__input">
           </div>
 
           <div class="searchBody-panel-form__container searchBody-panel-form__container--second">
-            <input type="text" placeholder="Enter your arrival station..." class="searchBody-panel-form__input">
+            <input id="callToArrival" type="text" placeholder="Enter your arrival station..." class="searchBody-panel-form__input">
           </div>
 
           <div class="searchBody-panel-form__container searchBody-panel-form__container--third">
@@ -105,13 +105,13 @@
       <!-- Fin panel de gauche -->
 
       <!-- Début panel de droite -->
-      <div class="searchBody-panel searchBody-panel--second">
+      <div id="panelRight-Container" class="searchBody-panel searchBody-panel--second">
         <div class="searchBody-panel__header">
-          <h3 class="searchBody-panel__title searchBody-panel__title--second">Trainline’s advantages
+          <h3 id="panelRight-title" class="searchBody-panel__title searchBody-panel__title--second">Trainline’s advantages
           </h3>
         </div>
 
-        <div class="searchBody-panel-information__container">
+        <div id="panelRight-result" class="searchBody-panel-information__container">
           <div class="searchBody-panel-information">
             <img class="searchBody-panel-information__img" src="./assets/img/asset-40.svg" alt="/">
             <div class="searchBody-panel-information__description">
@@ -323,7 +323,7 @@
 <!-- Début section home board -->
   <section class="homeBoard">
     <div class="homeBoard__container">
-      <h2 class="homeBoard__title">Get on board!</h2>
+      <h2 id="buttonToTop" class="homeBoard__title">Get on board!</h2>
       <p class="homeBoard__description">
         You are going to love buying train tickets.
       </p>
@@ -518,6 +518,7 @@
     </div>
   </section>
 <!-- Fin footer -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   <!-- Do not remove, main JS minified file from src/js/app.js -->
   <script src="./js/app.min.js" charset="utf-8"></script>
